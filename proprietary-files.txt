@@ -5,7 +5,6 @@ system/lib64/android.hardware.camera.common@1.0.so
 system/lib64/libarcsoft_single_chart_calibration.so
 system/lib64/libcamera_algoup_jni.xiaomi.so
 system/lib64/libcamera_mianode_jni.xiaomi.so
-system/lib64/libcameraservice.so|b9955210f5e3c947552f617403776501b2b40bfa
 system/lib64/libdoc_photo.so
 system/lib64/libdoc_photo_c++_shared.so
 system/lib64/libhidltransport.so
