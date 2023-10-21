@@ -8,6 +8,7 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/sweet-miuicamera/common/proprietary/system/lib64/android.hardware.camera.common@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.camera.common@1.0.so \
     vendor/xiaomi/sweet-miuicamera/common/proprietary/system/lib64/libarcsoft_single_chart_calibration.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libarcsoft_single_chart_calibration.so \
+    vendor/xiaomi/sweet-miuicamera/common/proprietary/system/lib64/libbufferhubqueue.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libbufferhubqueue.so \
     vendor/xiaomi/sweet-miuicamera/common/proprietary/system/lib64/libcamera_algoup_jni.xiaomi.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_algoup_jni.xiaomi.so \
     vendor/xiaomi/sweet-miuicamera/common/proprietary/system/lib64/libcamera_mianode_jni.xiaomi.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_mianode_jni.xiaomi.so \
     vendor/xiaomi/sweet-miuicamera/common/proprietary/system/lib64/libdoc_photo.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdoc_photo.so \
@@ -16,6 +17,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sweet-miuicamera/common/proprietary/system/lib64/libmotion_photo.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmotion_photo.so \
     vendor/xiaomi/sweet-miuicamera/common/proprietary/system/lib64/libmotion_photo_c++_shared.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmotion_photo_c++_shared.so \
     vendor/xiaomi/sweet-miuicamera/common/proprietary/system/lib64/libmotion_photo_mace.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmotion_photo_mace.so \
+    vendor/xiaomi/sweet-miuicamera/common/proprietary/system/lib64/libmicampostproc_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmicampostproc_client.so \
+    vendor/xiaomi/sweet-miuicamera/common/proprietary/system/lib64/libui-xiaomi.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libui-xiaomi.so \
+    vendor/xiaomi/sweet-miuicamera/common/proprietary/system/lib64/vendor.xiaomi.hardware.campostproc@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.xiaomi.hardware.campostproc@1.0.so \
     vendor/xiaomi/sweet-miuicamera/common/proprietary/system_ext/lib64/libdisplayconfig.system.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdisplayconfig.system.qti.so \
     vendor/xiaomi/sweet-miuicamera/common/proprietary/system_ext/lib64/vendor.qti.hardware.camera.device@3.5.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.camera.device@3.5.so \
     vendor/xiaomi/sweet-miuicamera/common/proprietary/vendor/bin/hw/android.hardware.camera.provider@2.4-service_64:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.camera.provider@2.4-service_64 \
