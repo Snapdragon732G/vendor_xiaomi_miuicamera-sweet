@@ -2,18 +2,13 @@
 
 -product/priv-app/MiuiCamera/MiuiCamera.apk:system/priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Aperture,Snap,Camera2,GoogleCameraGo,Camera,GrapheneCamera,CameraGraphene
 system/lib64/android.hardware.camera.common@1.0.so
-system/lib64/libarcsoft_single_chart_calibration.so
 system/lib64/libcamera_algoup_jni.xiaomi.so
 system/lib64/libcamera_mianode_jni.xiaomi.so
 system/lib64/libgui.so:system/lib64/libgui-xiaomi.so
-system/lib64/libdoc_photo.so
-system/lib64/libdoc_photo_c++_shared.so
 system/lib64/libhidltransport.so
-system/lib64/libmotion_photo.so
-system/lib64/libmotion_photo_c++_shared.so
-system/lib64/libmotion_photo_mace.so
+system/lib64/libmicampostproc_client.so
+system/lib64/vendor.xiaomi.hardware.campostproc@1.0.so
 system_ext/lib64/libdisplayconfig.system.qti.so
-system_ext/lib64/vendor.qti.hardware.camera.device@3.5.so
 vendor/bin/hw/android.hardware.camera.provider@2.4-service_64
 vendor/lib/rfsa/adsp/libarc_hta_driver_skel.so
 vendor/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so
